@@ -20,7 +20,7 @@ create a vertual environment
 ```
 python -m venv .venv
 .venv/bin/activate.bat
-
+```
 install django rest framework
 ```
 pip install djangorestframework

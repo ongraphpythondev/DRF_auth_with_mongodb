@@ -9,7 +9,6 @@ class RegistrationSerializer(serializers.ModelSerializer):
     # velidation 
     def validate(self, data):
 
-        # checking mobile no. is of 10 digit
         if len(data["username"]) < 3 or len(data["username"]) > 50:
             raise serializers.ValidationError("Enter correct username")
             
